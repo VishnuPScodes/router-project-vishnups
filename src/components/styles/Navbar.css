@@ -1,0 +1,26 @@
+#navbar{
+    border: 3px solid red;
+    height: 80px;
+    width: 99%;
+    margin: auto;
+    color: rgb(215, 27, 203);
+    background-color: rgb(242, 141, 158);
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    text-decoration:none;
+    font-family: 'Playfair Display', serif;
+    
+}
+#navbar>div{
+    border: 0px;
+    margin-left: 40px;
+    width: 140px;
+}
+#img-div{
+    height: 100%;
+    width: 40px;
+   
+  
+  
+}

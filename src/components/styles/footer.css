@@ -1,0 +1,11 @@
+#icon{
+    margin-left: 50px;
+}
+#icon:hover{
+    cursor: pointer;
+}
+#navbar>div{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
