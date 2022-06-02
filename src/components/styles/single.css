@@ -1,0 +1,30 @@
+#box{
+   display: flex;
+   flex-wrap:wrap;
+   flex-direction: row;
+   flex-flow: row;
+}
+#inner{
+    height:250px;
+    width:250px;
+    border:1px solid red;
+   margin-right:30px
+
+}
+#inner-2{
+border:1px solid black;
+height: 180px;
+width: 100%;
+}
+#main{
+    height: 600px;
+    border: 1px solid rgb(255, 234, 0);
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-gap: 5%;
+    grid-template-rows: repeat(2,450px);
+}
+#main>div{
+    border: 1px solid blue;
+}
+

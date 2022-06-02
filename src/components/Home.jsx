@@ -12,7 +12,9 @@ export const Home=(()=>{
     ]
     useEffect(()=>{
      const id=setInterval(()=>{
-        
+        if(num==3){
+            num=0;
+        }
             setNum(num+1)
       
      },2000)

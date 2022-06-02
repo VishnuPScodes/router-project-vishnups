@@ -11,6 +11,9 @@ import { Footer } from './components/Footer'
 import { About } from './components/Footerpages/About'
 import { Contact } from './components/Footerpages/Contact'
 import { FAQ } from './components/Footerpages/FAQ'
+import { ProductDetails } from './components/ProductDetails'
+import { Cart } from './components/Cart'
+import {NoteFound} from "./components/NoteFound"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +29,9 @@ function App() {
        <Route path='/About' element={<About/>}/>
        <Route path='/Contact' element={<Contact/>}/>
        <Route path='/FAQ' element={<FAQ/>}/>
+       <Route path='/ProductDetails/id' element={<ProductDetails/>} />
+       <Route path='/Cart' element={<Cart/>}/>
+       <Route path='*' element={<NoteFound/>} />
      </Routes>
      <Footer/>
     </div>
